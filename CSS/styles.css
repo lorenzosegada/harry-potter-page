@@ -241,6 +241,8 @@ footer {
   justify-content: center;
   flex-direction: column;
   height: 100vh;
+  margin-bottom: 40px;
+  padding: 40px 30px;
 }
 
 .pruebapadre {
@@ -248,13 +250,15 @@ footer {
   justify-content: center;
   flex-direction: column;
   height: 50vh;
+  padding: 15px 15px;
+  margin-bottom: 15px;
 }
 
 .hechizos {
   display: flex;
   align-items: center;
   flex-direction: column;
-  font-size: 18px;
+  font-size: 16px;
   color: rgb(255, 255, 255);
   font-family: 'Cinzel Decorative', cursive;
   text-align: center;
