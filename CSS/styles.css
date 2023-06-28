@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+
+.imagen2{
+    background-image: url(../CSS/images/tren\ 2.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+}
+.imagen3 {
+  background-image: linear-gradient(0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)), url(./images/casas.jpg);
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+.imagen4 {
+  background-image: linear-gradient(0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)), url(./images/hechizos.jpg);
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center center;
+}
+.imagen5 {
+  background-image: url(./images/peliculas.jpg);
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center center;
+}
+
+.menuprincipal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-image: url("../CSS/images/fondo de la primera pagina.jpg");
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center center;
+  height: 90vh;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.header-principal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  gap: 3%;
+  padding-left: 5%;
+  flex-wrap: wrap;
+}
+.tituloprincipal {
+  text-align: center;
+  font-family: 'Cinzel Decorative', cursive;
+  color: #ffffff;
+  font-size: 40px;
+}
+
+.temas-principales {
+  font-family: 'Cinzel Decorative', cursive;
+   display: flex;
+   height: 100%;
+   width: 100%;
+   justify-content: center;
+   align-items: center;
+}
+.temas-principales li:hover {
+  transform: scale(1.3);
+  border-radius: 25px;
+}
+.temas-principales a:hover {
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+}
+.temas-principales li{
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  transition: 700ms;
+}
+.temas-principales a {
+  text-decoration: none;
+  padding: 0px 20px;
+  font-size: 35px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  transition-duration: 150ms;
+}
+
+.temas-principales ul {
+  height: 100%;
+  width: 100%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.titulopersonajes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  gap: 3%;
+  padding-left: 5%;
+  flex-wrap: wrap;
+}
+.titulocasas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 92%;
+  gap: 2%;
+  padding-left: 5%;
+  flex-wrap: wrap;
+}
+.titulocasas2 {
+  text-align: center;
+  font-family: 'Cinzel Decorative', cursive;
+  color: #ffffff;
+  font-size: 60px;
+}
+
+.titulohechizos {
+  text-align: center;
+  font-family: 'Cinzel Decorative', cursive;
+  color: #ffffff;
+  font-size: 40px;
+}
+.titulohechizos2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  gap: 3%;
+  padding-left: 5%;
+  flex-wrap: wrap;
+}
+
+.titulopersonajes2 {
+  text-align: center;
+  font-family: 'Cinzel Decorative', cursive;
+  color: #e7ca94;
+  font-size: 40px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: #000000;
+}
+
+.frases {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: 'Cinzel Decorative', cursive;
+  margin: 0;
+}
+
+.titulopeliculas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  gap: 3%;
+  padding-left: 5%;
+  flex-wrap: wrap;
+  color: white;
+}
+
+  .tarjeta {
+    width: 350px; 
+    height: 700px; 
+    border: 3px solid #866300;
+    background-color:#000e3a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    flex: 1;
+    margin: 20px;
+}
+
+.tarjeta p {
+  color: #866300;
+}
+.tarjeta img {
+    width: 90%;
+    height: 600px; 
+    object-fit: cover;
+}
+
+.contenedor-padre {
+  padding: 40px;
+  height: 100vh;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.tarjetados {
+  width: 350px; 
+  height: 700px; 
+  border: 3px solid #742E1E;
+  background-color: #C8BFAE;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  flex: 1;
+  margin: 20px;
+}
+.tarjetados img {
+  width: 90%;
+  height: 600px; 
+  object-fit: cover;
+}
+
+.gif {
+  border-radius: 25%;
+}
+
+.Casas {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1.3em;
+  color: white;
+  font-family: 'Cinzel Decorative', cursive;
+  text-align: center;
+}
+
+.conteiner {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.pruebapadre {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 50vh;
+}
+
+.hechizos {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  font-family: 'Cinzel Decorative', cursive;
+  text-align: center;
+  
+}
+
+@media (max-width:980px) {
+
+}
+
+@media (max-width:500px) {
+
+}
